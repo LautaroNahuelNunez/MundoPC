@@ -1,7 +1,7 @@
 package com.gm.mundopc;
 
 public class Mouse extends DispositivoEntrada{
-    private int idMouse;
+    private final int idMouse;
     private static int contadorMouse;
 
     public Mouse(String tipoEntrada, String marca){
