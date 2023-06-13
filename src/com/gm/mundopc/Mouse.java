@@ -6,7 +6,7 @@ public class Mouse extends DispositivoEntrada{
 
     public Mouse(String tipoEntrada, String marca){
         super(tipoEntrada, marca);
-        this.idMouse = ++contadorMouse;
+        this.idMouse = ++Mouse.contadorMouse;
     }
 
     public int getIdMouse() {
