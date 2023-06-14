@@ -13,7 +13,7 @@ public class Orden {
     }
 
     public void agregarComputadora(Computadora computadora){
-        if(this.contadorComputadoras > Orden.MAX_COMPUTADORAS){
+        if(this.contadorComputadoras < Orden.MAX_COMPUTADORAS){
             this.computadoras[this.contadorComputadoras++] = computadora;
         }else{
             System.out.println("SE HA ALCANZADO EL MÁXIMO DE COMPUTADORAS: " + Orden.MAX_COMPUTADORAS);
